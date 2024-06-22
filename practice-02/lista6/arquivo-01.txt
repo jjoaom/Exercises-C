@@ -1,0 +1,59 @@
+Nome popular: Gato-doméstico
+Nome científico: Felis catus
+Doméstico ou selvagem: Doméstico
+Peso máximo: 4,5 kg
+Idade máxima em cativeiro: 20 anos
+
+Nome popular: Leão
+Nome científico: Panthera leo
+Doméstico ou selvagem: Selvagem
+Peso máximo: 250 kg
+Idade máxima em cativeiro: 25 anos
+
+Nome popular: Tigre
+Nome científico: Panthera tigris
+Doméstico ou selvagem: Selvagem
+Peso máximo: 300 kg
+Idade máxima em cativeiro: 26 anos
+
+Nome popular: Onça-pintada
+Nome científico: Panthera onca
+Doméstico ou selvagem: Selvagem
+Peso máximo: 100 kg
+Idade máxima em cativeiro: 22 anos
+
+Nome popular: Leopardo
+Nome científico: Panthera pardus
+Doméstico ou selvagem: Selvagem
+Peso máximo: 90 kg
+Idade máxima em cativeiro: 23 anos
+
+Nome popular: Guepardo
+Nome científico: Acinonyx jubatus
+Doméstico ou selvagem: Selvagem
+Peso máximo: 72 kg
+Idade máxima em cativeiro: 20 anos
+
+Nome popular: Lince-euroasiático
+Nome científico: Lynx lynx
+Doméstico ou selvagem: Selvagem
+Peso máximo: 30 kg
+Idade máxima em cativeiro: 21 anos
+
+Nome popular: Puma
+Nome científico: Puma concolor
+Doméstico ou selvagem: Selvagem
+Peso máximo: 100 kg
+Idade máxima em cativeiro: 20 anos
+
+Nome popular: Gato-bravo
+Nome científico: Felis silvestris
+Doméstico ou selvagem: Selvagem
+Peso máximo: 8 kg
+Idade máxima em cativeiro: 16 anos
+
+Nome popular: Caracal
+Nome científico: Caracal caracal
+Doméstico ou selvagem: Selvagem
+Peso máximo: 19 kg
+Idade máxima em cativeiro: 17 anos
