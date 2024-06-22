@@ -1,8 +1,3 @@
-# Exercises-C
-exercicios em linguagem C
+# C Language
 
-Aula PUC MINAS - Engenharia de Software
-
-Professora Isabela Borlido
-
-1º Período
+## Prática de exercícios em C e C++
