@@ -1,10 +1,9 @@
-/*Classe Básica -
-Crie uma classe chamada Ingrediente com os atributos privados nome
-(do tipo string), quantidade (do tipo double) e unidade (do tipo string,
-representando unidades como kg, litros, unidades). Implemente métodos públicos
-para definir e obter os valores de nome, quantidade e unidade, além de um método
-para imprimir as informações do ingrediente. Em seguida, crie um objeto da
-classe Ingrediente, defina os valores dos atributos e imprima-os.*/
+/*2) Modifique a classe Ingrediente para incluir um construtor que receba nome, quantidade e
+unidade como parâmetros, além de construtores padrão e de cópia, e um destrutor.
+Adicione verificações nos métodos setters para garantir que a quantidade não seja
+negativa e que unidade seja uma unidade válida (como kg, litros, unidades). Teste a classe
+criando objetos de diferentes maneiras, usando diferentes construtores, e imprimindo suas
+informações.*/
 
 #include <iostream>
 #include <string>
