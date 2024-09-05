@@ -38,7 +38,7 @@ int main() {
   cout << "Digite o nome do ingrediente: ";
   getline(cin, nomeIngrediente);
   
-  cout << "Digite a unidade de medida do igrediente: ";
+  cout << "Digite a unidade de medida do ingrediente: ";
   getline(cin, unidadeIngrediente);
   
   cout << "Digite a medida do ingrediente: ";

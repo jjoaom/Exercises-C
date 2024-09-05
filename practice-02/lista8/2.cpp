@@ -18,10 +18,24 @@ private:
   string unidade;
 //metodo publico associando os ingredientes privados da classe
 public:
+  //construtor
   Ingrediente(string nomeIng, string unidadeIng, double quantidadeIng) {
     nome = nomeIng;
     unidade = unidadeIng;
     quantidade = quantidadeIng;
+  }
+  //destrutor
+  ~Ingrediente(){
+    cout << "Destrutor chamado" << endl;
+    nome = "";
+    unidade = "";
+    quantidade = 0;
+  }
+  //copia construtor
+  Ingrediente(Ingrediente& ing){
+    nome = ing.nome;
+    quantidade = ing.quantidade;
+    unidade = ing.unidade;
   }
   //metodo para imprimir os ingredientes
   void printIngrediente(){
@@ -43,6 +57,11 @@ int main() {
   cout << "Digite a medida do ingrediente: ";
   cin >> qtdIngrediente;
 
+  Ingrediente ingrediente1(nomeIngrediente, unidadeIngrediente, qtdIngrediente);
+  ingrediente1.printIngrediente();
+  Ingrediente ingrediente2 = ingrediente1;
+  ingrediente2.printIngrediente();
+  ingrediente1.~Ingrediente();
   Ingrediente ingrediente1(nomeIngrediente, unidadeIngrediente, qtdIngrediente);
   ingrediente1.printIngrediente();
 
