@@ -19,3 +19,4 @@ d) Calcule o número de operações em função de n para cada um dos algoritmos
 - Comparação "igual a"
 - Incremento no melhor caso
 - Incremento no pior caso*/
+
