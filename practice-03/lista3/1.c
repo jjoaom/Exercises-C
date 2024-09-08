@@ -31,5 +31,7 @@ int main(){
             z =+ 1;
         }
     }
+
+    printf("O valor de x = %d", x);
     return 0;
 }

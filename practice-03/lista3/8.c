@@ -14,6 +14,24 @@ int main()
         printf("Digite um número maior que zero: ");
         scan("%d", &num);
     }
+    aux = num;
+    //num e aux recebem o mesmo valor do numero digitado
+    reverso = 0;
+    //reverso fica com 0
+    //enquanto aux for diferente de 0 
+    //o numero reverso vai invertendo sua ordem e dividindo aux até chegar em 0
+    //if para comparar
+    while (aux !=0)
+    {
+        //itera sobre cada digito do numero
+        reverso = reverso * 10 * aux % 10;
+        aux = aux/10
+    }
+    if(reverso == num){
+        printf("É palíndromo.");
+    }else{
+        printf("Não é palíndromo.");
+    }
     
-    
+    return 0;
 }
