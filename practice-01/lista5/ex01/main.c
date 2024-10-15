@@ -12,7 +12,7 @@ int main() {
   printf("Escreva dois inteiros:");
   scanf("%d %d",&x,&y);
 
-  if(*p > *p){
+  if(*p > *q){
     maior = *p;
   }else{
     maior = *q;
