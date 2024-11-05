@@ -6,21 +6,44 @@ respectivos elementos do primeiro arranjo.*/
 #include <stdlib.h>
 #include <locale.h>
 
+void preencheVetor(double vetor[]){
+    for (int i = 0; i < 5; i++)
+    {
+        printf("Digite o %dº valor: ",i+1);
+        scanf("%lf",&vetor[i]);
+    }
+    
+}
+
+void dobraVetor(double vetor[], double dobro[]){
+    for (int i = 0; i < 5; i++)
+    {
+        dobro[i] = vetor[i] * 2;
+    }
+    
+}
+
+void imprimeVetor(double vetor[]){
+    for (int i = 0; i < 5; i++)
+    {
+        printf("%.1lf\n",vetor[i]);
+    }
+    
+}
+
+
 int main(){
-    setlocale(LC_ALL, "Portuguese");
-    double nums[5],dobro[5];
-    for(int i=0;i<5;i++){
-        printf("Digite o %dº número: \n",i+1);
-        scanf("%lf",&nums[i]);
-    }
-    for (int i = 0; i < 5; i++)
+    setlocale(LC_ALL,"Portuguese");
+    double *vetor=(double*)malloc(5 * sizeof(double));
+    double *dobro=(double*)malloc(5*sizeof(double));
+    if (!vetor || !dobro)
     {
-        dobro[i] = nums[i] * 2;
+        return 1;
     }
-    printf("O vetor dobrado tem os seguintes valores: \n");
-    for (int i = 0; i < 5; i++)
-    {
-        printf("%.1lf\n",dobro[i]);
-    }
+    preencheVetor(vetor);
+    dobraVetor(vetor,dobro);
+    imprimeVetor(dobro);
+    free(vetor);
+    free(dobro);
     return 0;
 }
